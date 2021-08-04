@@ -16,17 +16,17 @@ minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt"
 
 # Site Settings
 locale                   : "ko"
-title                    : "Together, SoriMeta!"
+title                    : "소희의 로그일지"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
-name                     : "Together, SoriMeta!"
-description              : "아름다운 것을 좋아하고 아름다운 세상을 만들고 싶은 SoriMeta 블로그"
+name                     : "소희의 로그일지"
+description              : 
 url                      : "https://sorimeta.github.io" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
-repository               : "sohui96/sorimeta.github.io" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
+repository               : "sorimeta/sorimeta.github.io" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
-logo                     : # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
-masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
+logo                     : /assets/img/logo-middle.png # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
+masthead_title           : "소희의 로그일지" # overrides the website title displayed in the masthead, use " " for no title
 # breadcrumbs            : false # true, false (default)
 words_per_minute         : 200
 comments:
@@ -102,8 +102,8 @@ analytics:
 # Site Author
 author:
   name             : "Kim Sohee"
-  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "SoriMeta is me, sohee!"
+  avatar           : "/assets/img/profile.jpg"
+  bio              : "sorimeta is me, sohee!"
   location         : "Seoul, Korea"
   email            : "sorimeta218@gmail.com"
   github           : "sorimeta"

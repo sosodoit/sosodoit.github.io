@@ -8,8 +8,14 @@
   margin-left: 0;
   margin-right: 0;
   width: 100%;
+  clear: both;
+  /* sticky footer fix start */
+  position: absolute;
+  bottom: 0;
+  height: auto;
+  /* sticky footer fix end */
   margin-top: 3em;
-  color: $muted-text-color;
+  color: $dark-gray;
   -webkit-animation: $intro-transition;
   animation: $intro-transition;
   -webkit-animation-delay: 0.45s;
@@ -75,11 +81,5 @@
   a {
     padding-right: 10px;
     font-weight: bold;
-  }
-
-  .social-icons {
-    a {
-      white-space: nowrap;
-    }
   }
 }

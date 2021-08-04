@@ -184,8 +184,6 @@
     margin: 0 1rem;
     color: $masthead-link-color;
     text-decoration: none;
-    -webkit-transition: none;
-    transition: none;
 
     &:hover {
       color: $masthead-link-color-hover;
@@ -199,11 +197,6 @@
     &.site-title {
       margin-left: 0;
     }
-  }
-  
-  img{
-    -webkit-transition: none;
-    transition: none;
   }
 
   &__toggle {
@@ -352,7 +345,7 @@
       display: inline-block;
       padding: 0.5em 2.5em 0.5em 1em;
       color: $gray;
-      font-size: $type-size-6;
+      font-size: $type-size-5;
       font-weight: bold;
       border: 1px solid $light-gray;
       border-radius: $border-radius;
@@ -493,7 +486,7 @@
   margin: 0.5rem 0;
   padding: 0.25rem 0;
   font-family: $sans-serif-narrow;
-  font-size: $type-size-6;
+  font-size: $type-size-5;
   font-weight: bold;
   text-transform: uppercase;
   border-bottom: 1px solid $border-color;
@@ -506,6 +499,7 @@
 .toc {
   font-family: $sans-serif-narrow;
   color: $gray;
+  letter-spacing: 1px;
   background-color: $background-color;
   border: 1px solid $border-color;
   border-radius: $border-radius;
@@ -514,14 +508,14 @@
 
   .nav__title {
     color: #fff;
-    font-size: $type-size-6;
+    font-size: $type-size-5;
     background: $primary-color;
     border-top-left-radius: $border-radius;
     border-top-right-radius: $border-radius;
   }
 
   // Scrollspy marks toc items as .active when they are in focus
-  .active a {
+  .active {
     @include yiq-contrasted($active-color);
   }
 }
@@ -534,12 +528,12 @@
   font-size: $type-size-6;
 
   @include breakpoint($large) {
-    font-size: $type-size-7;
+    font-size: $type-size-6;
   }
 
   a {
     display: block;
-    padding: 0.25rem 0.75rem;
+    padding: 0.4rem 0.8rem;
     color: $muted-text-color;
     font-weight: bold;
     line-height: 1.5;
