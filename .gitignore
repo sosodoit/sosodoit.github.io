@@ -1,0 +1,122 @@
+### Jekyll ###
+_site
+.jekyll-metadata
+*-cache/
+
+
+### NPM ###
+/node_modules/
+
+
+### Atom ###
+.ftpconfig
+.sftpconfig
+
+
+### WordPress ###
+wp-config.php
+wp-config-local.php
+wp-content/advanced-cache.php
+wp-content/backup-db/
+wp-content/backups/
+wp-content/blogs.dir/
+wp-content/cache/
+wp-content/upgrade/
+wp-content/uploads/
+wp-content/wp-cache-config.php
+wp-content/plugins/hello.php
+
+
+### Apache ###
+.htaccess
+
+
+### Compiled Source ##
+*.com
+*.class
+*.dll
+*.exe
+*.o
+*.so
+
+
+### Compressed Packages ###
+*.7z
+*.dmg
+*.gz
+*.iso
+*.jar
+*.rar
+*.tar
+*.zip
+
+
+### Logs and Databases ###
+*.log
+*.sql
+*.sqlite
+
+
+### Linux ###
+*~
+.fuse_hidden*
+.Trash-*
+.nfs*
+
+
+### Windows ###
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+Desktop.ini
+$RECYCLE.BIN/
+*.cab
+*.msi
+*.msix
+*.msm
+*.msp
+*.lnk
+
+# Dump file
+*.stackdump
+
+# Folder config file
+[Dd]esktop.ini
+
+# Recycle Bin used on file shares
+$RECYCLE.BIN/
+
+
+### VisualStudioCode ###
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+*.code-workspace
+
+# Local History for Visual Studio Code
+.history/
+
+
+### VisualStudioCode Patch ###
+# Ignore all local history of files
+.history
+.ionide
+
+
+### Git ###
+# Created by git for backups. To disable backups in Git:
+# $ git config --global mergetool.keepBackup false
+*.orig
+
+# Created by git when using merge tools for conflicts
+*.BACKUP.*
+*.BASE.*
+*.LOCAL.*
+*.REMOTE.*
+*_BACKUP_*.txt
+*_BASE_*.txt
+*_LOCAL_*.txt
+*_REMOTE_*.txt
