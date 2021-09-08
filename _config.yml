@@ -1,5 +1,5 @@
 # Your Website Title
-title: 김소희의 포트폴리오
+title: Data AnalArt; Sohee Kim's Portfolio
 
 # Your Website URL
 url: 'http://sosodoit.github.io'
@@ -15,9 +15,9 @@ baseurl: ''
 name: 김소희
 tagline: 예술하는 데이터분석가
 pic: profile.png # profile.png can be found at /assets/images/profile.png
-description: Full Stack Developer, IoT, Reverse Engineering
-description_tiny: 'Home: +60-4 | Studied: +1-408 | Work: +60-3'
-#email: you.email.email@gmail.com
+description: Data-analyst Like Art and MYGOAL; Data-scientist, Full Stack Developer
+description_tiny: 'Bachelor of Science in Statistics'
+email: rosesh0218@gmail.com
 website: sosodoit.github.io # do not add http://
 #linkedin: realmelvinchng
 github: sosodoit
