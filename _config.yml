@@ -1,5 +1,5 @@
 # Your Website Title
-title: Data AnalArt; Sohee Kim's Portfolio
+title: 김소희의 포트폴리오
 
 # Your Website URL
 url: 'http://sosodoit.github.io'
@@ -13,15 +13,20 @@ baseurl: ''
 
 # Index page and Profile Information
 name: 김소희
-tagline: 예술하는 데이터분석가
-pic: profile.png # profile.png can be found at /assets/images/profile.png
-description: Data-analyst Like Art and MYGOAL; Data-scientist, Full Stack Developer
-description_tiny: 'Bachelor of Science in Statistics'
+tagline: 예술쟁이 데이터분석가 
+# R, Python, Bigdata, Datamining
+pic: profile_gif2.gif
+subtitle: Data AnalArt
+description: 'Hi. Data AnalArt means a data analyst who likes art. 
+Yeah, I am a Data-AnalArt who wants to present the results more beautifully.
+Also, I like classical music and art, and I have a lot of desire to study.
+If you want to know more, please take a look at my resume(CV)!'
+description_tiny: 'Interest: #Bigdata #Datamining #Statistical-Machine-Learning #MetaVerse'
 email: rosesh0218@gmail.com
 website: sosodoit.github.io # do not add http://
-#linkedin: realmelvinchng
 github: sosodoit
-#twitter: '@realmelvinchng'
+#linkedin: username
+#twitter: '@username'
 
 # Files or folders to be excluded
 exclude: [gitbook_source_code/]

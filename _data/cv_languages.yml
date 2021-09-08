@@ -1,14 +1,2 @@
-- name: Chinese 
-  level: Native
-
 - name: English 
-  level: Fluent
-
-- name: Malay 
-  level: Fluent
-  
-- name: Hokkien 
-  level: Fluent
-
-- name: Cantonese 
-  level: Beginner
+  level: Can read and understand English papers

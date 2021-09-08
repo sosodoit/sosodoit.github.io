@@ -1575,11 +1575,11 @@ input[type="tel"] {
 
 	.panel-cover__description {
 		margin: 0 10px;
-		font-size: .9em; }
+		font-size: 1.1em; }
 	
 	.panel-cover__description_tiny {
 		margin: 0 10px;
-		font-size: .75em; }
+		font-size: .95em; }
 
 	.navigation--social {
 		margin-top: 5px;
