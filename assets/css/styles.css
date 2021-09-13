@@ -76,10 +76,10 @@ p {
   width: 300px;
   height: 100%;
   min-height: 800px;
-  color: #fff;
+  color: rgba(2, 53, 73, 0.795);
 }
 .sidebar-wrapper a {
-  color: #fff;
+  color: rgb(0, 0, 0);
 }
 .sidebar-wrapper .profile-container {
   padding: 30px;
@@ -105,7 +105,7 @@ p {
 }
 .sidebar-wrapper .contact-list .fa {
   margin-right: 5px;
-  font-size: 18px;
+  /* font-size: 22px; */
   vertical-align: middle;
 }
 .sidebar-wrapper .contact-list li {
@@ -115,20 +115,21 @@ p {
   margin-bottom: 0;
 }
 .sidebar-wrapper .contact-list .email .fa {
-  font-size: 14px;
+  font-size: 22px;
 }
 .sidebar-wrapper .container-block {
   padding: 30px;
 }
 .sidebar-wrapper .container-block-title {
   text-transform: uppercase;
-  font-size: 16px;
+  font-size: 18px;
   font-weight: 700;
   margin-top: 0;
   margin-bottom: 15px;
+  color:rgb(0, 38, 53);
 }
 .sidebar-wrapper .degree {
-  font-size: 14px;
+  font-size: 16px;
   margin-top: 0;
   margin-bottom: 5px;
 }
@@ -163,7 +164,13 @@ p {
 }
 .sidebar-wrapper .interests-list {
   margin-bottom: 0;
+  font-size: 22px;
 }
+
+.sidebar-wrapper .interests-list a{
+  color:rgb(0, 0, 0)
+}
+
 .sidebar-wrapper .interests-list li {
   margin-bottom: 10px;
 }
@@ -229,6 +236,13 @@ p {
   top: 0;
   color: #97AAC3;
 }
+
+.skillset .item2 {
+  margin-bottom: 15px;
+  overflow: hidden;
+  color: #97AAC3;
+}
+
 .main-wrapper .company {
   margin-bottom: 10px;
   color: #97AAC3;

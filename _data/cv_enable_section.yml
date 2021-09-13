@@ -1,4 +1,4 @@
-awards: true
+awards: false
 courses: true
 experiences: true
 group_projects: true
@@ -7,4 +7,4 @@ interests: true
 languages: true
 profiles: true
 skills: true
-volunteers: true
+volunteers: false

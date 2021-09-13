@@ -1,8 +1,11 @@
-<div class="interests-container container-block">
-<h2 class="container-block-title">Interests</h2>
+<div class="education-container container-block">
+<h2 class="container-block-title">Interests Outside Of Work</h2>
     <ul class="list-unstyled interests-list">
+    <div class="item">
         {% for interest in site.data.cv_interests %}
-            <li>{{ interest.name }}</li>
+            <h4 class="degree">{{ interest.title }}</h4>
+            <h5 class="meta">{{ interest.name }}</h5>
         {% endfor %}
+    </div>
     </ul>
 </div><!--//interests-->

@@ -9,22 +9,22 @@ layout: cv_layout
     {% include cv_experience.html %}
   {% endif %}
 
-  {% if site.data.cv_enable_section.individual_projects == true %}
-    {% include cv_personal-projects.html %}
+  {% if site.data.cv_enable_section.skills == true %}
+    {% include cv_skills.html %}
   {% endif %}
 
   {% if site.data.cv_enable_section.group_projects == true %}
     {% include cv_group-projects.html %}
   {% endif %}
 
-  {% if site.data.cv_enable_section.skills == true %}
-    {% include cv_skills.html %}
+  {% if site.data.cv_enable_section.individual_projects == true %}
+    {% include cv_personal-projects.html %}
   {% endif %}
 
-  {% if site.data.cv_enable_section.awards == true %}
-    {% include cv_awards.html %}
-  {% endif %}
-
-  {% if site.data.cv_enable_section.volunteers == true %}
+  <!-- {% if site.data.cv_enable_section.volunteers == true %}
     {% include cv_volunteer.html %}
-  {% endif %}
+  {% endif %} -->
+  
+  <!-- {% if site.data.cv_enable_section.awards == true %}
+    {% include cv_awards.html %}
+  {% endif %} -->

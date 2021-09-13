@@ -1,11 +1,5 @@
-- title: Sample Individual Project 1
-  link: http://www.google.com
-  time: Dec 2016 - Dec 2017
-  company: Student at You Don't Care University
-  info: Additional information about project.
-
-- title: Sample Individual Project 2
-  link: http://www.google.com
-  time: Dec 2014
-  company: Student at You Don't Care University
-  info: Additional information about project.
+- title: 데이터마이닝
+  link: 소개
+  time: 기간
+  company: 역할
+  info: 관련기술

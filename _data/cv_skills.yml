@@ -1,17 +1,5 @@
-- name: Cooking
-  level: 70
+- name: R
+  level: 90
 
-- name: Eating
+- name: Python
   level: 80
-
-- name: Honest
-  level: 95
-
-- name: Confident
-  level: 75
-
-- name: Loyal
-  level: 95
-
-- name: Sleeping
-  level: 60

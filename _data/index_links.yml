@@ -3,13 +3,9 @@
   title: CV
 
 - link: gitbook
-  hover_text: Link to 영화추천 Project01
-  title: PR01
+  hover_text: Link to Team Projects
+  title: Team Projects
 
 - link: gitbook
-  hover_text: Link to 커뮤니티 Project02
-  title: PR02
-
-- link: gitbook
-  hover_text: Link to 객체탐지 Project03
-  title: PR03
+  hover_text: Link to Personal Projects
+  title: Personal Projects

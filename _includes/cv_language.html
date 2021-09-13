@@ -1,8 +1,12 @@
 <div class="languages-container container-block">
-    <h2 class="container-block-title">Languages</h2>
+    <h2 class="container-block-title">Languages and Tools</h2>
     <ul class="list-unstyled interests-list">
         {% for language in site.data.cv_languages %}
             <li>{{ language.name }} <span class="lang-desc">({{ language.level }})</span></li>
         {% endfor %}
+        <a href="https://rstudio.com/"><img alt="RStudio" width="26px" src="https://cdn.jsdelivr.net/npm/simple-icons@3.4.0/icons/rstudio.svg"/></a>
+        <a href="https://www.r-project.org/"><img alt="HTML5" width="26px" src="https://cdn.jsdelivr.net/npm/simple-icons@3.4.0/icons/r.svg" /></a>
+        <a href="https://www.python.org/"><img alt="HTML5" width="26px" src="https://cdn.jsdelivr.net/npm/simple-icons@3.4.0/icons/python.svg" /></a>
+        <a href="https://daringfireball.net/projects/markdown/"><img alt="HTML5" width="26px" src="https://cdn.jsdelivr.net/npm/simple-icons@3.4.0/icons/markdown.svg" /></a>
     </ul>
 </div><!--//interests-->
