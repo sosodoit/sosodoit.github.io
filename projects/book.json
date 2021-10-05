@@ -1,5 +1,5 @@
 {
-    "plugins": ["theme-default"],
+    "plugins": ["theme-default","embed-pdf"],
     "styles": {
         "website": "styles/website.css"
     },
