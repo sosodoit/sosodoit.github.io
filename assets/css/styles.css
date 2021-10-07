@@ -8,6 +8,74 @@
 */
 /* styles.css */
 
+/* ======= auto slide ======= */
+* {margin:0;padding:0;box-sizing: border-box;}
+ul, li {list-style: none;}
+[name="slide"] {display: none;}
+.slidebox {max-width: 1000; width:100%; margin:0 auto;}
+.slidebox img {max-width: 100%;}
+.slidebox .slidelist {
+  white-space: nowrap;
+  font-size: 0;
+  overflow: hidden;
+}
+.slidebox .slideitem {
+  position: relative;
+  display: inline-block;
+  vertical-align: middle;
+  width: 100%;
+  transition: all .35s;
+}
+.slidebox .slideitem label {
+  position: absolute;
+  z-index: 1;
+  top: 50%;
+  transform: translateY(-50%) ;
+  padding: 20px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+label.left {
+  left: -20px;
+  background-color: #f5f5f5 ;
+  background-image: url('/assets/aboutme/left.png');
+  background-position: center center;
+  background-size: 50%;
+  background-repeat: no-repeat;
+}
+label.right {
+  right: -20px;
+  background-color: #f5f5f5 ;
+  background-image: url('/assets/aboutme/right.png');
+  background-position: center center;
+  background-size: 50%;
+  background-repeat: no-repeat;
+}
+.section-slide [id="slide01"]:checked ~ .slidelist .slideitem {transform: translateX(0%); animation: slide01 20s infinite;}
+.section-slide [id="slide02"]:checked ~ .slidelist .slideitem {transform: translateX(-100%);}
+.section-slide [id="slide03"]:checked ~ .slidelist .slideitem {transform: translateX(-200%);}
+.section-slide [id="slide04"]:checked ~ .slidelist .slideitem {transform: translateX(-300%);}
+.section-slide [id="slide05"]:checked ~ .slidelist .slideitem {transform: translateX(-400%);}
+.section-slide [id="slide06"]:checked ~ .slidelist .slideitem {transform: translateX(-500%);}
+
+@keyframes slide01 {
+  0% {left:0%;}
+  16% {left:0%;}
+  18% {left:-100%;}
+  32% {left:-100%;}
+  34% {left:-200%;}
+  48% {left:-200%;}
+  50% {left:-300%;}
+  66% {left:-300%;}
+  68% {left:-400%;}
+  88% {left:-400%;}
+  90% {left:-500%;}
+  98% {left:-500%;}
+  100% {left:100%;}
+  100% {left:100%;}
+}
+
+
 /* ======= slide ======= */
 .section-slide input[id*"slide"] {
   display: none;
