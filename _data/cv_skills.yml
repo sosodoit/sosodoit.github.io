@@ -1,5 +1,5 @@
-- name: R
-  level: 90
+# - name: R
+#   level: 90
 
-- name: Python
-  level: 80
+# - name: Python
+#   level: 80

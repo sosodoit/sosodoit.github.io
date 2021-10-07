@@ -1,19 +1,19 @@
-- skill: 데이터 수집 기술 (SQL, Crawling)
+# - skill: 데이터 수집 기술 (SQL, Crawling)
 
-- skill: 데이터 분석 기술 (Descriptive Analysis)
+# - skill: 데이터 분석 기술 (Descriptive Analysis)
 
-- skill: 분석 결과 활용 기술 (Data Visualisation in R/Python)
+# - skill: 분석 결과 활용 기술 (Data Visualisation in R/Python)
 
-- name: 그 외 흔히 채용공고에 나오는 이런 '자격요건'들을 경험해봤습니다.
-- skill: "팀 : 기능조직 / 목적조직 / 스쿼드"
-- skill: "실험 : AB 테스팅"
-- skill: "모니터링 : Google Analytics"
-- skill: "커뮤니케이션 : Slack / Notion"
-- skill: "이슈관리 : Github / Trello"
-- skill: "버전관리 : Git"
+# - name: 그 외 흔히 채용공고에 나오는 이런 '자격요건'들을 경험해봤습니다.
+# - skill: "팀 : 기능조직 / 목적조직 / 스쿼드"
+# - skill: "실험 : AB 테스팅"
+# - skill: "모니터링 : Google Analytics"
+# - skill: "커뮤니케이션 : Slack / Notion"
+# - skill: "이슈관리 : Github / Trello"
+# - skill: "버전관리 : Git"
 
-- name: 새로운 것은 꼭 건드려보는 강한 호기심을 가지고 있어요. 현재는 아래것들을 익히고 있습니다.
-- skill: docker
+# - name: 새로운 것은 꼭 건드려보는 강한 호기심을 가지고 있어요. 현재는 아래것들을 익히고 있습니다.
+# - skill: docker
 
-- name: 앞으로는 아래것들을 익혀보고 싶습니다.
-- skill: BI Tools
+# - name: 앞으로는 아래것들을 익혀보고 싶습니다.
+# - skill: BI Tools

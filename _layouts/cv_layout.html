@@ -7,13 +7,23 @@ layout: compress_layout
 
   <body>
     <div class="wrapper">
-      {% include cv_sidebar.html %}
+      <div class="sidebar-wrapper">
+        <div class="profile-container">
+            <img class="profile-img" src="{{site.baseurl}}/assets/images/profile.png" alt="profile picture" />
+            <h1 class="name">{% if site.name %}{{site.name}}{% else %}김소희{% endif %}</h1>
+            <h3 class="tagline">{% if site.tagline %}{{site.tagline}}{% else %}{% endif %}</h3>
+            <br>
+            Connect with me: <a href="mailto: {{site.email}}">rosesh0218@gmail.com</a>
+        </div>
+      </div>
   
       <div class="main-wrapper">   
-        {{content}}
-      </div><!--//main-body-->
+        {% include cv_career-profile.html %}
+        {% include cv_career-profile.html %}
+        {% include cv_career-profile.html %}
+        {% include cv_career-profile.html %}
+      </div>
     </div>
-
     {% include cv_footer.html %}
     {% include cv_scripts.html %}
   </body>
