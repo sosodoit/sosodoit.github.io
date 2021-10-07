@@ -1,18 +1,31 @@
-# Initial page
+# 프로젝트 이력
 
-## 15.0.0 - 2042-12-03
+## Finder
 
-### Fixed
+* 소개: 블랙박스 영상기반 범법행위 탐지 모델 개발
+* 기간: 2021.10
+* 관련기술: python,
+* 역할:
+* 자세한 설명은 이 에 있습니다.
+* 개발 과정 산출물은 이 곳에 있습니다.
 
-* Removed humans, they weren't doing fine with animals.
+## Dev Dream
 
-### Changed
+* 소개: 개발자의 꿈을 이루다 - 교육생 커뮤니티 웹사이트
+* 기간: 2021.07
+* 관련기술: python, django
+* 역할:
+* 자세한 설명은 이 곳에 있습니다.
+* 개발 과정 산출물은 이 곳에 있습니다.
 
-* Animals are now super cute, all of them.
+## Movie recommendation
 
-## 14.0.0 - 2042-10-06
+* 소개: 사용자 평점 기 영화 추천시스템 모형 개발
+* 기간: 2021.05
+* 관련기술: R, Collaborative Filtering\(추천 알고리즘\)
+* 역할:
+* 자세한 설명은 이 곳에 있습니다.
+* 개발 과정 산출물은 이 곳에 있습니다.
 
-### Added
-
-* Introduced animals into the world, we believe they're going to be a neat addition.
+## 
 
