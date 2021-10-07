@@ -1,5 +1,9 @@
 - link: cv
-  hover_text: Link to 김소희의 이력서
+  hover_text: Link to KimSohee's Details
+  title: About me
+
+- link: assets/files/kimsohee_cv.pdf
+  hover_text: Link to KimSohee's Resume
   title: CV
 
 - link: projects
