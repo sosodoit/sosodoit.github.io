@@ -2,10 +2,10 @@
   hover_text: Link to 김소희의 이력서
   title: CV
 
-- link: gitbook
+- link: projects
   hover_text: Link to Team Projects
   title: Team Projects
 
-- link: gitbook
+- link: projects
   hover_text: Link to Personal Projects
   title: Personal Projects

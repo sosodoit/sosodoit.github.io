@@ -1,0 +1,10 @@
+{
+    "plugins": ["theme-default","embed-pdf"],
+    "styles": {
+        "website": "styles/website.css"
+    },
+    "title": "Personal Projects",
+    "author": "Kim Sohee",
+    "language": "ko-kr",
+    "description": "Introduction To Projects"
+}
