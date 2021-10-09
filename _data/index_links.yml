@@ -2,9 +2,9 @@
   hover_text: Link to KimSohee's Details
   title: About me
 
-- link: assets/files/kimsohee_cv.pdf
-  hover_text: Link to KimSohee's Resume
-  title: CV
+# - link: assets/files/kimsohee_cv.pdf
+#   hover_text: Link to KimSohee's Resume
+#   title: CV
 
 - link: projects
   hover_text: Link to Team Projects
