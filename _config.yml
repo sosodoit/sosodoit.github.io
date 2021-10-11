@@ -24,11 +24,11 @@ description_tiny: 'Interest: #Bigdata #Datamining #Statistical-Machine-Learning 
 email: rosesh0218@gmail.com
 website: sosodoit.github.io # do not add http://
 github: sosodoit
-linkedin: cv
+# linkedin: cv
 #twitter: '@username'
 
 # Files or folders to be excluded
-exclude: [projects/]
+# exclude: [projects/]
 
 # All the plugins for Jekyll
 plugins:
