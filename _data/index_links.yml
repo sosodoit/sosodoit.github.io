@@ -1,15 +1,17 @@
-- link: cv
-  hover_text: Link to KimSohee's Details
+## ==> 메인화면 링크 생성
+- link: aboutme
+  hover_text: Link to about me
   title: About me
 
 # - link: assets/files/kimsohee_cv.pdf
 #   hover_text: Link to KimSohee's Resume
 #   title: CV
 
-- link: projects
-  hover_text: Link to Team Projects
-  title: Team Projects
+- link: project
+  hover_text: Link to about projects
+  title: Projects
 
-- link: projects
-  hover_text: Link to Personal Projects
-  title: Personal Projects
+# gitbook
+# - link: projects
+#   hover_text: Link to about projects
+#   title: Projects

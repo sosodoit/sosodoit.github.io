@@ -1,36 +1,31 @@
-# Your Website Title
-title: 김소희의 포트폴리오
-
-# Your Website URL
+## ==> Web Info
+title: 예술쟁이 개발자, 김소희입니다.
 url: 'http://sosodoit.github.io'
+baseurl: '' # Leave it default
 
-# Leave it default
-baseurl: '' 
-
-# Google Analytics
+## ==> Google Analytics
 #ga_index: UA-XXXXXXXX-X
 #ga_cv: UA-XXXXXXXX-X
 
-# Index page and Profile Information
+## ==> Index page and Profile Info
 name: 김소희
-tagline: 예술쟁이 데이터분석가 
+tagline: 예술쟁이 개발자, 김소희입니다. 
 pic: profile_gif.gif
-subtitle: Data AnalArtist
-description: "Hi. I am a Data-AnalArtist! : 'Analyst, Scientist who likes Art.'
-Yeah, I am a Data-AnalArtist Who Is Inquisitive, Concentration, And A Fast-Learner. 
-Also, I love beautiful things, classical music, and I have a lot of desire to study. 
-If you want to know more, please take a look at my resume(CV)!"
+subtitle: Data-SciArtist
+description: "Hi. I am a Data-SciArtist! : 'Analyst, Scientist who likes Art.'
+Yeah, I am a Data-SciArtist Who Is Inquisitive, Concentration, And A Fast-Learner. 
+Also, I love beautiful things, classical music, and I have a lot of desire to study."
 description_tiny: 'Interest: #Bigdata #Datamining #Statistical-Machine-Learning #MetaVerse'
 email: rosesh0218@gmail.com
 website: sosodoit.github.io # do not add http://
 github: sosodoit
-linkedin: cv
-#twitter: '@username'
+# linkedin: cv
+# twitter: '@username'
 
-# Files or folders to be excluded
+## ==> Files or folders to be excluded
 # exclude: [projects/]
 
-# All the plugins for Jekyll
+## ==> All the plugins for Jekyll
 plugins:
   - jekyll-sitemap
   - wdm
