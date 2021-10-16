@@ -1,0 +1,71 @@
+---
+layout: compress_layout
+---
+<!DOCTYPE html>
+<html lang="en">
+
+  {% include cv_head.html %}
+
+  <body>
+    <div class="wrapper">  
+      <div class="main-wrapper"> 
+        
+      <center>
+      <h2>Content</h2>
+      </center>
+      <ul>
+      {% for post in site.posts %}
+        <li>
+          <a href="{{ post.url }}">{{ post.title }}</a>
+          {{ post.excerpt }}
+        </li>
+      {% endfor %}
+      </ul>
+
+      <center>
+      <h2>────────────────────────────────</h2>
+      <!-- 이미지로 바꾸기 -->
+      </center>
+      
+      <br>
+
+        <div class="post">
+          <div class="post-info">
+            <div class="post-type-tag">
+              {% if page.draft == true %}
+                <div class="catalogue-tag">
+                  Coming Soon
+                </div>
+              {% endif %}
+              <div class="post-type">
+                  {{ page.type }}
+              </div>
+            </div>
+            <h1 class="post-title">
+                {{ page.title }}
+            </h1>
+            <h2 class="post-subtitle">
+                {{ page.subtitle }}
+            </h2>
+          </div>   
+        </div>
+
+      {{ content }}
+
+      </div>
+
+    <!--draft-->
+    <!-- {% if page.draft == true %}
+      <div class="catalogue-draft-message">
+          <h1>
+              &#x1F64B; Coming Soon!
+          </h1>
+          현재 열심히 글을 쓰고 있어요. 조금만 기다려주세요!
+      </div>
+    {% endif %} -->
+    </div>
+    {% include cv_footer.html %}
+    {% include cv_scripts.html %}
+  </body>
+
+</html>

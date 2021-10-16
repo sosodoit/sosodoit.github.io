@@ -15,3 +15,7 @@
 # - link: projects
 #   hover_text: Link to about projects
 #   title: Projects
+
+- link: blog
+  hover_text: Link to record
+  title: Blog
