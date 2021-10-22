@@ -26,7 +26,7 @@ GEM
       ffi (>= 1.15.0)
     eventmachine (1.2.7-x64-mingw32)
     execjs (2.8.1)
-    faraday (1.7.1)
+    faraday (1.7.2)
       faraday-em_http (~> 1.0)
       faraday-em_synchrony (~> 1.0)
       faraday-excon (~> 1.1)
@@ -265,8 +265,6 @@ GEM
       unf_ext
     unf_ext (0.0.7.7-x64-mingw32)
     unicode-display_width (1.7.0)
-    wdm (0.1.1)
-    webrick (1.7.0)
     zeitwerk (2.4.2)
 
 PLATFORMS
@@ -274,9 +272,9 @@ PLATFORMS
 
 DEPENDENCIES
   github-pages
+  jekyll-redirect-from
+  jekyll-seo-tag
   jekyll-sitemap
-  wdm (~> 0.1.1)
-  webrick (~> 1.7)
 
 BUNDLED WITH
    2.2.27

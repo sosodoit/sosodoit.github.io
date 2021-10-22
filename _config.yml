@@ -1,31 +1,48 @@
-## ==> Web Info
-title: 예술쟁이 개발자, 김소희입니다.
-url: 'http://sosodoit.github.io'
-baseurl: '' # Leave it default
+title: sosodoit.log
+description: 그림 그리는 개발자, 김소희입니다.
 
-## ==> Google Analytics
-#ga_index: UA-XXXXXXXX-X
-#ga_cv: UA-XXXXXXXX-X
+url:   http://sosodoit.github.io
+image: /images/logo.png
 
-## ==> Index page and Profile Info
-name: 김소희
-tagline: 예술쟁이 개발자, 김소희입니다. 
-pic: profile_gif.gif
-subtitle: Data-SciArtist
-description: "Hi. I am a Data-SciArtist! : 'Analyst, Scientist who likes Art.'
-Yeah, I am a Data-SciArtist Who Is Inquisitive, Concentration, And A Fast-Learner. 
-Also, I love beautiful things, classical music, and I have a lot of desire to study."
-description_tiny: 'Interest: #Bigdata #Datamining #Statistical-Machine-Learning #MetaVerse'
-email: rosesh0218@gmail.com
-website: sosodoit.github.io # do not add http://
-github: sosodoit
-# linkedin: cv
-# twitter: '@username'
+show_downloads: false
+future:         true
+# timezone:       Asia/Seoul
 
-## ==> Files or folders to be excluded
-# exclude: [projects/]
+cayman-blog:
+  date_format: "%b %-d, %Y"
 
-## ==> All the plugins for Jekyll
+theme: 
+
+permalink: /:categories/:title
+
+# social
+author: Sohee Kim
+disqus_shortname: sosodoit-github-io
+google_analytics:   
+
+repository: sosodoit/sosodoit.github.io
+
+highlighter: rouge
+markdown:    kramdown
+lsi: false
+excerpt_separator: "\n\n"
+incremental: false
+
+# root_dir: http://localhost:4000
+category_dir: categories/
+tag_dir: tag/
+categories: [android, aws, data_science, git, jekyll, linux, machine-learning, python, pytorch, review, synology, thoughts]
+
+paginate: 10
+paginate_path: "/posts/page:num/"
+
 plugins:
+  - jekyll-seo-tag
   - jekyll-sitemap
-  - wdm
+  - jekyll-feed
+  - jekyll-redirect-from
+
+
+include: [".htaccess"]
+exclude: ["lib", "config.rb", "Gemfile", "Capfile", "Gemfile.lock", "config", "log", "Rakefile", "Rakefile.rb", "tmp", "less", "*.sublime-project", "*.sublime-workspace", "test", "spec", "Gruntfile.js", "package.json", "node_modules"]
+

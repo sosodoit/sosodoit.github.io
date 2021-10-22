@@ -1,0 +1,77 @@
+---
+layout: default
+---
+<div class="page-content-header">
+  <div class="page-content-header-title">{{ page.title }}</div>
+  <div class="page-content-header-date">
+    {% assign date_format = site.cayman-blog.date_format | default: "%b %-d, %Y" %}
+    {{ page.date | date: date_format }}
+  </div>
+</div>
+<div class="top-banner">
+    <h3>💁🏻‍♀️ Introduction</h3>
+    ◾ 안녕하세요. 신입 개발자 김소희입니다.<br>
+    ◾ 데이터분석을 시작으로 무언가를 만들어내는 개발자의 매력에 푹 빠져 있습니다.<br>
+    ◾ 데이터사이언티스트, 머신러닝엔지니어링 역량을 기르고 있습니다.<br>
+    ◾ 개발 공부는 클론코딩으로 이해하고, 응용하며 누구나 이해할 수 있는 클린코드를 지향합니다.<br>
+    ◾ 예술 활동을 좋아합니다. 예술 분야와도 접목시켜보고 싶네요!<br>
+</div>
+<br>
+<article>
+  <div class="page-wrapper">
+    {% if page.title != 'About' %}
+
+    {% endif %}
+
+    {{ content }}
+
+    <br>
+    <hr/>
+    {% for cat in page.categories %}
+    {% for post in site.categories[cat] %}
+    {% if post.url == page.url %}
+    {% assign current_index = forloop.index %}
+    {% endif %}
+    {% endfor %}
+
+    {% if site.categories[cat].size > 1 %}
+    <h2>관련 글 더보기</h2>
+    {% endif %}
+
+    {% assign start_index = current_index | minus: 3 %}
+    {% if start_index < 1 %}
+    {% assign start_index = 1 %}
+    {% endif %}
+
+    {% assign end_index = start_index | plus: 5 %}
+
+    {% for post in site.categories[cat] %}
+    {% if forloop.index >= start_index %}
+    {% if forloop.index <= end_index %}
+    {% if post.url != page.url %}
+    <p>- <a href="{{ post.url }}" class="recommendations">{{ post.title }}</a></p>
+    {% endif %}
+    {% endif %}
+    {% endif %}
+    {% endfor %}
+    {% endfor %}
+    
+
+  </div>
+
+  {% if page.permalink != '/about.html' %}
+  <div class='last-comment'>
+    <p>데이터 분석, 머신러닝, 딥러닝 전문가를 꿈꿉니다.</p>
+  </div>
+
+  <!-- below website -->
+  <!-- <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-5548835221228418" data-ad-slot="1481048616"
+    data-ad-format="auto" data-full-width-responsive="true"></ins>
+  <script>
+    (adsbygoogle = window.adsbygoogle || []).push({});
+  </script> -->
+
+  {% include disqus_comments.html %}
+  {% endif %}
+
+</article>
